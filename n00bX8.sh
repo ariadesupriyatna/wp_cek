@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-
+# warna
 RED="\e[31m"
 Magenta="\e[35m"
 BOLDRED="\e[1;${RED}"
@@ -10,7 +10,7 @@ ENDCOLOR="\e[0m"
 
 neofetch --ascii_distro BSD -L
 
-# Menampilkan animasi loading
+# animasi loading
 echo -e "${BOLDRED}    DICEK MASBRO"
 sp="/\-/\|"
 sc=0
@@ -34,10 +34,11 @@ sleep 0.5
 echo "proses 91%....."
 sleep 0.3
 echo "proses 100%"
-# Tentukan URL yang ingin diambil
+
+# Tentukan URL 
 url="https://omcyber.com"
 
-# Ambil konten dari URL menggunakan curl dan cari bar>
+# konten dari URL
 spin &
 PID=$!
 
